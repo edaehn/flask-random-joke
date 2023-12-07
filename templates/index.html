@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character set for the document -->
+    <meta charset="UTF-8">
+    <!-- Ensure proper rendering and compatibility with Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Define the viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the HTML document using the Flask variable 'title' -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{{ title }}</title>
+</head>
+<body>
+    <!-- Display the value of the Flask variable 'message' within an H1 element -->
+    <h1>{{ message }}</h1>
+
+    <!-- Add a button to open the /greeting page-->
+    <form method="get" action="{{ url_for('greeting') }}">
+        <button type="submit">Let's Greet!</button>
+    </form>
+</body>
+</html>
