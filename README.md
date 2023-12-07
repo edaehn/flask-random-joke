@@ -52,6 +52,10 @@ This is a simple Flask web application that displays a random joke from a text f
 
 - [Flask](https://flask.palletsprojects.com/): Python web framework used for building the web application.
 
+## Contributing
+
+Feel free to add your contributions or change this code as you like.
+
 ## License
 
 This project is licensed under the [Creative Commons CC BY-SA](https://creativecommons.org/share-your-work/cclicenses/#:~:text=CC%20BY%2DSA,modified%20material%20under%20identical%20terms).
