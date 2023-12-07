@@ -54,4 +54,4 @@ This is a simple Flask web application that displays a random joke from a text f
 
 ## License
 
-This project is licensed under the [Creative Commons V1.0 Universal](LICENCE).
+This project is licensed under the [Creative Commons CC BY-SA](https://creativecommons.org/share-your-work/cclicenses/#:~:text=CC%20BY%2DSA,modified%20material%20under%20identical%20terms).
